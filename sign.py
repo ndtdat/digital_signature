@@ -6,8 +6,7 @@ from Cryptodome.Hash import SHA256
 from Cryptodome.Signature import PKCS1_v1_5
 from Cryptodome.PublicKey import RSA
 
-# dir_list = ["failed_real_client", "id_2021", "id_card", "india_id_card", "indonesia_id_card", "passport"]
-dir_list = ["indonesia_id_card"]
+dir_list = ["sub_dir"]
 data_dir = os.path.abspath("./card_segmentation/datasets")
 sign_dir = os.path.abspath("./card_segmentation/signature")
 
